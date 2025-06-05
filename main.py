@@ -59,11 +59,11 @@ photozip = 'https://envs.sh/cD_.jpg'
 
 
 # Inline keyboard for start command
-BUTTONSCONTACT = InlineKeyboardMarkup([[InlineKeyboardButton(text="📞 Contact", url="https://t.me/meketchum")]])
+BUTTONSCONTACT = InlineKeyboardMarkup([[InlineKeyboardButton(text="📞 Contact", url="https://t.me/Maisamyahu")]])
 keyboard = InlineKeyboardMarkup(
     [
         [
-            InlineKeyboardButton(text="🛠️ Help", url="https://t.me/meketchum"),
+            InlineKeyboardButton(text="🛠️ Help", url="https://t.me/Maisamyahu"),
             InlineKeyboardButton(text="🛠️ Update", url="https://t.me/Medicoarmy"),
         ],
     ]
@@ -331,7 +331,7 @@ async def start(bot, m: Message):
             f"🌟 Welcome {m.from_user.first_name}! 🌟\n\n" +
             f"Great! You are a premium member!\n"
             f"Use Command : /help to get started 🌟\n\n"
-            f"If you face any problem contact -  [𝗔𝗗𝗜𝗧𝗬𝗔](https://t.me/meketchum)\n", disable_web_page_preview=True, reply_markup=BUTTONSCONTACT
+            f"If you face any problem contact -  [𝗔𝗗𝗜𝗧𝗬𝗔](https://t.me/Maisamyahu)\n", disable_web_page_preview=True, reply_markup=BUTTONSCONTACT
         )
     else:
         await asyncio.sleep(2)
